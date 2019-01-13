@@ -792,6 +792,9 @@
               li.textContent = warning;
           }
       });
+      ex.remove = () => {
+          ui.removeTab(tab);
+      };
   });
 
 }));
