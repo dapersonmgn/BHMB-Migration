@@ -29,4 +29,8 @@ MessageBot.registerExtension('bibliofile/convert', function (ex) {
       li.textContent = warning
     }
   })
+
+  ex.remove = () => {
+    ui.removeTab(tab);
+  };
 })
